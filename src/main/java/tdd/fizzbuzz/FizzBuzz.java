@@ -1,7 +1,7 @@
 package tdd.fizzbuzz;
 
 public class FizzBuzz {
-    public String countOff(int i) {
-        return null;
+    public String countOff(int order) {
+        return String.valueOf(order);
     }
 }

@@ -13,9 +13,10 @@ public class FizzBuzz {
         if(order % 7 == 0) {
             result += "Whizz";
         }
-        if(result.length() == 0) {
+        if(result.isEmpty()) {
             result = String.valueOf(order);
         }
+
         return result;
     }
 }

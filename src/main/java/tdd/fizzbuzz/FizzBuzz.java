@@ -10,6 +10,9 @@ public class FizzBuzz {
         if(order % 5 == 0) {
             result += "Buzz";
         }
+        if(order % 7 == 0) {
+            result += "Whizz";
+        }
         if(result.length() == 0) {
             result = String.valueOf(order);
         }

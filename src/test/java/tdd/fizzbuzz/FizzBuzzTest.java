@@ -51,12 +51,21 @@ public class FizzBuzzTest {
         assertEquals(expected, actual);
     }
 
-//    @Test
-//    void should_return_FizzWhizz_when_countOff_given_21() {
-//        String expected = "FizzWhizz";
-//
-//        String actual = fizzBuzz.countOff(21);
-//
-//        assertEquals(expected, actual);
-//    }
+    @Test
+    void should_return_FizzWhizz_when_countOff_given_21() {
+        String expected = "FizzWhizz";
+
+        String actual = fizzBuzz.countOff(21);
+
+        assertEquals(expected, actual);
+    }
+
+    @Test
+    void should_return_BuzzWhizz_when_countOff_given_35() {
+        String expected = "BuzzWhizz";
+
+        String actual = fizzBuzz.countOff(35);
+
+        assertEquals(expected, actual);
+    }
 }
